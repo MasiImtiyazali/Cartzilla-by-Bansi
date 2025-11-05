@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartzilla E-Store</title>
+
+  <!-- =====  Bootstrap CSS  ===== -->
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+
+  <!-- =====  Custom CSS  ===== -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- =====  Font Awesome CSS  ===== -->
+  <link rel="stylesheet" href="assets/fonts/font-awesome/all.min.css" />
+
+</head>
+
+<body>
+  <!-- =====  Start Navbar Section  ===== -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="d-flex align-items-center toggle-btn-div">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerBottomMenu"
+            aria-controls="headerBottomMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa-solid fa-bars"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/Logo.svg" class="d-none d-lg-block" alt="Logo-img" />
+            <img src="assets/images/basic-logo.png" class="d-lg-none d-md-block basic-logo" alt="Logo-img" />
+          </a>
+        </div>
+        <div class="nav-search d-lg-flex d-none">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search the products" />
+        </div>
+        <div class="nav-discount d-flex align-items-center d-lg-flex d-none">
+          <div class="nav-discount-round">%</div>
+          <div class="nav-discount-sub-div">
+            <p>Only this month</p>
+            <h5>Super Sale 20%</h5>
+          </div>
+        </div>
+        <div class="nav-user d-flex align-items-center">
+          <div>
+            <img src="assets/images/icons/moon-icon.svg" alt="" />
+          </div>
+          <div class="d-lg-flex d-none">
+            <img src="assets/images/icons/heart-icon.svg" alt="" />
+          </div>
+          <div class="d-lg-flex d-none">
+            <img src="assets/images/icons/user-icon.svg" alt="" />
+          </div>
+          <div class="d-lg-none d-flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="cart">
+            <img src="assets/images/icons/cart-icon.svg" alt="" />
+            <div class="cart-count">
+              <div class="cart-count-sub-div">3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="header-bottom collapse d-lg-block" id="headerBottomMenu">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <ul class="navbar-nav mb-0">
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                  href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="assets/images/icons/category-icon.svg" class="category-icon" alt="" /><span
+                    class="mb-0 category-dropdown">Categories</span>
+                  <img src="assets/images/icons/dropdown-icon.svg" class="d-icon" alt="" />
+                </a>
+                <div class="dropdown-menu">
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/computer.svg" class="category-list-icon" alt="" />
+                      <span>Computers & Accessories</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/smartphone-2.svg" class="category-list-icon" alt="" />
+                      <span>Smartphones & Tablets</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/monitor-2.svg" class="category-list-icon" alt="" />
+                      <span>TV, Video & Audio</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/speaker.svg" class="category-list-icon" alt="" />
+                      <span>Speakers & Home Music</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/camera.svg" class="category-list-icon" alt="" />
+                      <span>Cameras, Photo & Video</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/printer.svg" class="category-list-icon" alt="" />
+                      <span>Printers & Ink</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/battery.svg" class="category-list-icon" alt="" />
+                      <span>Charging Stations</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/headphones.svg" class="category-list-icon" alt="" />
+                      <span>Headphones</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/watch.svg" class="category-list-icon" alt="" />
+                      <span>Wearable Electronics</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/powerbank.svg" class="category-list-icon" alt="" />
+                      <span>Powerbanks</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/hard-drive.svg" class="category-list-icon" alt="" />
+                      <span>HDD/SSD Data Storage</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="category-list">
+                    <div>
+                      <img src="assets/images/icons/game.svg" class="category-list-icon" alt="" />
+                      <span>Video Games</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Best Sellers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Today’s Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="javascript:void(0)">New Arrivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="javascript:void(0)">Gift Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="javascript:void(0)">Help Center</a>
+              </li>
+            </ul>
+            <div class="nav-language">
+              <ul class="d-flex m-0 p-0">
+                <li class="nav-item dropdown nav-bottom-language">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Eng
+                    <img src="assets/images/icons/dropdown-icon.svg" class="d-icon" alt="" />
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">Hindi</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">Gujarati</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">Urdu</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown nav-bottom-currency">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    USD ($)
+                    <img src="assets/images/icons/dropdown-icon.svg" class="d-icon" alt="" />
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">INR (₹)</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">JPY (¥)</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)">SAR (﷼)</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====  End Navbar Section  ===== -->
+
+  <!-- =====  Start Banner Section  ===== -->
+
+  <div class="banner-section">
+    <div class="container">
+      <div class="banner">
+        <div class="row">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide d-flex swiper-slide-div">
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                  <div class="banner-sub-div">
+                    <p class="banner-sub-heading">
+                      Feel the real quality sound
+                    </p>
+                    <h1 class="banner-heading">
+                      Headphones <br />
+                      ProMax
+                    </h1>
+                    <button class="banner-btn">
+                      Shop now
+                      <img src="assets/images/icons/Icon.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div>
+                    <img src="assets/images/banner-img1.png" class="banner-img" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====  End Banner Section  ===== -->
+
+  <!-- =====  Start Benefits Section  ===== -->
+
+  <div class="benefits-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-6 col-12">
+          <div class="benefits-sub-div benefits-sub-div-1 d-flex align-items-center">
+            <div class="icon-div">
+              <img src="assets/images/icons/delivery.svg" class="benefits-icon" alt="" />
+            </div>
+            <div class="banefits-content">
+              <p class="benefits-heading">For all orders over $199.00</p>
+              <p class="benefits-sub-heading">Free Shipping & Returns</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 mt-sm-0 mt-4">
+          <div class="benefits-sub-div d-flex align-items-center">
+            <div class="icon-div">
+              <img src="assets/images/icons/credit-card.svg" class="benefits-icon" alt="" />
+            </div>
+            <div class="banefits-content">
+              <p class="benefits-heading">Secure Payment</p>
+              <p class="benefits-sub-heading">We ensure secure payment</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 mt-lg-0 mt-4">
+          <div class="benefits-sub-div d-flex align-items-center">
+            <div class="icon-div">
+              <img src="assets/images/icons/refresh-ccw.svg" class="benefits-icon" alt="" />
+            </div>
+            <div class="banefits-content">
+              <p class="benefits-heading">Money Back Guarantee</p>
+              <p class="benefits-sub-heading">Returning money 30 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 mt-lg-0 mt-4">
+          <div class="benefits-sub-div d-flex align-items-center">
+            <div class="icon-div">
+              <img src="assets/images/icons/chat.svg" class="benefits-icon" alt="" />
+            </div>
+            <div class="banefits-content">
+              <p class="benefits-heading">24/7 Customer Support</p>
+              <p class="benefits-sub-heading">Friendly customer support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====  End Benefits Section  ===== -->
+  <!-- ========== Start arrival section ========== -->
+  <div class="arrival-section">
+    <div class="container arrival-container">
+      <h2 class="section-heading">New arrivals</h2>
+      <div class="row m-0 p-0">
+        <div class="col-lg-4 p-0">
+          <div class="laptop-col">
+            <img src="assets/images/macbook.png" alt="" />
+            <h3>MacBook</h3>
+            <p>Be Pro Anywhere</p>
+            <button type="button">
+              From $1,199<img src="assets/images/icons/Icon.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="row m-0 p-0 pt-3 pb-3">
+            <!-- ----Product 1 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p1.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                  </div>
+                  <span class="rating-no">45</span>
+                </div>
+                <p>Smart Watch Series 7, White</p>
+                <h6>$449.00</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 2 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p2.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-regular fa-star star-empty"></i>
+                    <i class="fa-regular fa-star star-empty"></i>
+                  </div>
+                  <span class="rating-no">126</span>
+                </div>
+                <p>Tablet Apple iPad Air M1</p>
+                <h6>$540.00</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 3 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p3.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-regular fa-star star-empty"></i>
+                  </div>
+                  <span class="rating-no">123</span>
+                </div>
+                <p>VRB01 Virtual Reality Glasses</p>
+                <h6>$340.99</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 4 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p4.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                  </div>
+                  <span class="rating-no">340</span>
+                </div>
+                <p>Headphones Apple AirPods 2 Pro</p>
+                <h6 class="d-flex align-items-center">
+                  $209.99 <span class="fake-price">$356.00</span>
+                </h6>
+              </div>
+            </div>
+
+            <!-- ----Product 5 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p5.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-regular fa-star star-empty"></i>
+                  </div>
+                  <span class="rating-no">34</span>
+                </div>
+                <p>Wireless Bluetooth Headphones Sony</p>
+                <h6>$357.00</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 6 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p6.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-regular fa-star star-empty"></i>
+                  </div>
+                  <span class="rating-no">45</span>
+                </div>
+                <p>Power Bank PBS 10000 mAh Black</p>
+                <h6>$49.99</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 7 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p7.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                  </div>
+                  <span class="rating-no">8</span>
+                </div>
+                <p>Laptop Apple MacBook Pro 13 M2</p>
+                <h6>$1,200.00</h6>
+              </div>
+            </div>
+
+            <!-- ----Product 8 ----  -->
+            <div class="col-md-6 product-col d-flex align-items-center">
+              <img src="assets/images/p8.png" alt="" class="p-img" />
+              <div class="p-details">
+                <div class="mb-2 d-flex gap-2 align-items-center">
+                  <div class="rate-star">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                  </div>
+                  <span class="rating-no">12</span>
+                </div>
+                <p>Apple iPhone 14 128GB White</p>
+                <h6 class="d-flex align-items-center">
+                  $899.00 <span class="fake-price">$956.00</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== End arrival section ========== -->
+  <!-- ========== Start Trending ========== -->
+
+  <div class="trending-section section">
+    <div class="container trending-container">
+      <div class="section-heading-div d-flex align-items-center justify-content-between">
+        <h2 class="section-heading mb-0">Trending products</h2>
+        <button>
+          View all <i class="fa-solid fa-chevron-right ms-1"></i>
+        </button>
+      </div>
+      <div class="row m-0 p-0">
+        <!-- ----- Product Card 1 -----  -->
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p3.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+              <span class="rating-no">(14)</span>
+            </div>
+            <p>VRB01 Virtual Reality Glasses</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">
+                $340.99 <span class="fake-price">$430.00</span>
+              </h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="discount-tag">-21%</span>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 2 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p8.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-regular fa-star star-empty"></i>
+              </div>
+              <span class="rating-no">(142)</span>
+            </div>
+            <p>Apple iPhone 14 128GB White</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$899.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 3 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p1.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+              <span class="rating-no">(64)</span>
+            </div>
+            <p>Smart Watch Series 7, White</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$429.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 4 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p7.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-regular fa-star star-empty"></i>
+                <i class="fa-regular fa-star star-empty"></i>
+              </div>
+              <span class="rating-no">(51)</span>
+            </div>
+            <p>Laptop Apple MacBook Pro 13 M2</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$1,200.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="new-tag">New</span>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 5 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p2.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+              <span class="rating-no">(12)</span>
+            </div>
+            <p>Tablet Apple iPad Air M1</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$540.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 6 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p4.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-regular fa-star star-empty"></i>
+              </div>
+              <span class="rating-no">(78)</span>
+            </div>
+            <p>Headphones Apple AirPods 2 Pro</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$224.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 7 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p9.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+              <span class="rating-no">(48)</span>
+            </div>
+            <p>Tablet Apple iPad Pro M1</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$640.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+
+        <!-- ----- Product Card 8 -----  -->
+
+        <div class="col-md-3 col-6">
+          <div class="product-card">
+            <img src="assets/images/p5.png" alt="" />
+            <div class="mb-2 d-flex gap-2 align-items-center">
+              <div class="rate-star">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-regular fa-star star-empty"></i>
+              </div>
+              <span class="rating-no">(136)</span>
+            </div>
+            <p>Wireless Bluetooth Headphones Sony</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="d-flex align-items-center mb-0">$299.00</h6>
+              <button>
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              </button>
+            </div>
+            <span class="three-dot"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End Trending ========== -->
+  <!-- ========== Start Sticker ========== -->
+  <div class="sticker-section">
+    <div class="container sticker-container">
+      <div class="offer-sticker d-flex align-items-center">
+        <div class="first-part d-flex justify-content-center align-items-center">
+          <h2 class="mb-0">20</h2>
+          <p class="mb-0">
+            % <br />
+            <span>OFF</span>
+          </p>
+        </div>
+        <div class="second-part d-flex flex-column justify-content-center">
+          <h2>seasonal weekly sale 2024</h2>
+          <p>Use code <span>Sale 2024</span>to get best offer</p>
+          <img src="assets/images/discount-camera-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== End Sticker ========== -->
+  <!-- ========== Start Brands section ========== -->
+  <div class="brands-section">
+    <div class="brands-container container">
+      <div class="row m-0 p-0">
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box">
+            <img src="assets/images/apple.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box">
+            <img src="assets/images/motorola.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box">
+            <img src="assets/images/canon.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box">
+            <img src="assets/images/samsung.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box">
+            <img src="assets/images/sony.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 mb-2">
+          <div class="brand-box brand-box-last">
+            All brands<i class="fa-solid fa-circle-plus ms-1"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End Brands section ========== -->
+  <!-- ========== Start newsletter section ========== -->
+
+
+  <div class="newsletter-section">
+    <div class="newsletter-container container">
+      <div class="row p-0 m-0">
+        <div class="col-lg-6">
+          <h3 class="heading">Sign up to our newsletter</h3>
+          <p class="sub-heading">
+            Receive our latest updates about our products & promotions
+          </p>
+          <div class="gap-2 d-flex align-items-center">
+            <input type="email" class="newletter-input" placeholder="Your email" id="newsletter-input" />
+            <button class="newletter-input-btn">Subscribe</button>
+          </div>
+          <div class="gap-sm-3 gap-2 d-flex align-items-center social-icon-div">
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <i class="fa-brands fa-facebook-f social-icon"></i>
+            <i class="fa-brands fa-youtube social-icon"></i>
+            <i class="fa-solid fa-paper-plane social-icon"></i>
+          </div>
+        </div>
+        <div class="col-lg-6 ps-lg-4">
+          <div class="blogs d-flex gap-4 flex-column">
+            <div class="blog d-flex align-items-center">
+              <img src="assets/images/blog1.jpg" alt="" />
+              <div>
+                <span>6:16</span>
+                <p class="blog-p">
+                  5 New Cool Gadgets You Must See on <br>Cartzilla - Cheap Budget
+                </p>
+              </div>
+            </div>
+            <div class="blog d-flex align-items-center">
+              <img src="assets/images/blog2.jpg" alt="" />
+              <div>
+                <span>10:20</span>
+                <p class="blog-p">
+                  5 Super Useful Gadgets on Cartzilla <br>You Must Have in 2023
+                </p>
+              </div>
+            </div>
+            <div class="blog d-flex align-items-center">
+              <img src="assets/images/blog3.jpg" alt="" />
+              <div>
+                <span>8:40</span>
+                <p class="blog-p">
+                  Top 5 New Amazing Gadgets on <br>Cartzilla You Must See
+                </p>
+              </div>
+            </div>
+            <span class="blog-p"></a>
+              View all <i class="fa-solid fa-chevron-right ms-1"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End newsletter section ========== -->
+  <!-- ========== Start Footer Section ========== -->
+  <footer>
+    <div class="footer-container container">
+      <div class="row m-0 p-0 justify-content-between ">
+        <div class="col-sm-12 col-lg-4 footer-first-col mb-3">
+          <img src="assets/images/basic-logo.png" alt="">
+          <p>Got question? Contact us 24/7</p>
+          <div class="dropdown">
+            <button type="button" id="footer-contact" data-bs-toggle="dropdown" aria-expanded="false">
+              Help and consultation <img src="assets/images/icons/dropdown-icon.svg" class="m-0" alt=""
+                style="width: 16px;" />
+            </button>
+            <ul class="dropdown-menu dropdown-menu-footer" aria-labelledby="footer-contact">
+              <li>+1234567890</li>
+              <li>john.do@gmail.com</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-sm-4 col-lg-2  footer-col mt-sm-3 mt-lg-0 mt-4 d-none d-sm-block">
+          <h6>Company</h6>
+          <ul style="list-style-type: none;" class="ps-0">
+            <li><a href="">About company</a></li>
+            <li><a href="">Our team</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">News</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2 footer-col mt-3 mt-lg-0 d-sm-block d-none">
+          <h6>Account</h6>
+          <ul style="list-style-type: none;" class="ps-0">
+            <li><a href="">Your account</a></li>
+            <li><a href="">Shipping rates & policies</a></li>
+            <li><a href="">Refunds & replacements</a></li>
+            <li><a href="">Delivery info</a></li>
+            <li><a href="">Order tracking</a></li>
+            <li><a href="">Taxes & fees</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2 footer-col mt-3 mt-lg-0 d-sm-block d-none">
+          <h6>Customer service</h6>
+          <ul style="list-style-type: none;" class="ps-0">
+            <li><a href="">Payment methods</a></li>
+            <li><a href="">Money back guarantee</a></li>
+            <li><a href="">Product returns</a></li>
+            <li><a href="">Support center</a></li>
+            <li><a href="">Shipping</a></li>
+            <li><a href="">Term and conditions</a></li>
+          </ul>
+        </div>
+        <!-- -----Accodian In Small Screen---- -->
+        <div class="accordion accordion-flush d-block d-sm-none" id="accordionFlushExample">
+          <!-- ---first list---  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed accordion-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Company
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-part">
+                <ul style="list-style-type: none;" class="ps-0">
+                  <li><a href="">About company</a></li>
+                  <li><a href="">Our team</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ---second list---  -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed accordion-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Account
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-part">
+                <ul style="list-style-type: none;" class="ps-0">
+                  <li><a href="">Your account</a></li>
+                  <li><a href="">Shipping rates & policies</a></li>
+                  <li><a href="">Refunds & replacements</a></li>
+                  <li><a href="">Delivery info</a></li>
+                  <li><a href="">Order tracking</a></li>
+                  <li><a href="">Taxes & fees</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ---third list---  -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed accordion-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Customer service
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-part">
+                <ul style="list-style-type: none;" class="ps-0">
+                  <li><a href="">Payment methods</a></li>
+                  <li><a href="">Money back guarantee</a></li>
+                  <li><a href="">Product returns</a></li>
+                  <li><a href="">Support center</a></li>
+                  <li><a href="">Shipping</a></li>
+                  <li><a href="">Term and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ------Accordion End here------------- -->
+      </div>
+    </div>
+    <!-- --- Second Container start ---  -->
+    <div class="footer-container container">
+      <div class="footer-keywords d-flex align-items-center">
+        <a href="#">
+          <p>Computers</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Smartphones</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>TV, Video</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Speakers</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Cameras</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Printers</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Video Games</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Headphones</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Wearable</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>HDD/SSD</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Smart Home</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Apple Devices</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Tablets</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Monitors</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Scanners</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Servers</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Heating and Cooling</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>E-readers</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Data Storage</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Networking</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Power Strips</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Plugs and Outlets</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Detectors and Sensors</p>
+        </a>
+        <span>/</span>
+        <a href="#">
+          <p>Accessories</p>
+        </a>
+      </div>
+    </div>
+    <div class="container sub-footer d-flex align-items-center justify-content-between flex-column flex-md-row">
+      <p class="order-1 order-md-0">© All rights reserved. Made by <a href="#">Bansi</a></p>
+      <div class="order-0 order-md-1 p-partners gap-3 d-flex align-items-center justify-content-around">
+        <div class="p-partner"><img src="assets/images/visa-logo.png" alt=""></div>
+        <div class="p-partner"><img src="assets/images/Mastercard.png" alt=""></div>
+        <div class="p-partner"><img src="assets/images/PayPal.png" alt=""></div>
+        <div class="p-partner"><img src="assets/images/GooglePay.png" alt=""></div>
+        <div class="p-partner"><img src="assets/images/ApplePay.png" alt=""></div>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <!-- ========== End Footer Section ========== -->
+
+
+  <!-- =====  Bootstrap JS  ===== -->
+  <script src="assets/bootstrap/popper.min.js"></script>
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+
+  <!-- =====  Font Awesome JS  ===== -->
+  <script src="assets/fonts/font-awesome/all.min.js"></script>
+</body>
+
+</html>
